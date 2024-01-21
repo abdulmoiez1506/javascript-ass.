@@ -1,9 +1,15 @@
-var length = prompt('Length of rectangle')
-var width = prompt('Width of rectangle')
-var area = length * width;
-console.log("The area of the rectangle is " + area); 
 
+alert('Greeting! welcome to our webpage')
 
+var name = prompt ('whats your name' )
+var age = prompt ('whats your age' )
 
-var username = prompt("Whats your name?");
-alert("Hi, " + username + "! have a nice day." );
+console.log(name);
+console.log(age);
+
+if(age<25){
+    console.log('you are a student');
+}
+else {
+    console.log('you are not a student');
+}
